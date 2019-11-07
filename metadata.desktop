@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Panel Transparency Button
+Comment=an applet to enable/disable transparency for plasma panels
+Encoding=UTF-8
+Type=Service
+
+X-KDE-PluginInfo-Author=Michail Vourlakos
+X-KDE-PluginInfo-Email=mvourlakos@gmail.com
+X-KDE-PluginInfo-License=GPL2
+X-KDE-PluginInfo-Name=org.kde.paneltransparencybutton
+X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-Website=
+X-KDE-ServiceTypes=Plasma/Applet
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-KDE-PluginInfo-Category=Utilities
+Icon=image-red-eye
