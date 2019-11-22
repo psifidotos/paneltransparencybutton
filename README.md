@@ -2,7 +2,29 @@
 
 Plasma 5 applet that enables/disables transparency for plasma panels. Plasma 5.17.3 is required to work correctly and enable/disable panel shadows when needed.
 
-# Requires
+<p align="center">
+<img src="https://imgur.com/0VPE3MF.gif" width="660"><br/>
+<i>demonstration</i>
+</p>
+
+<p align="center">
+<img src="https://imgur.com/Uf7clpF.png" width="660"><br/>
+<i>tranparent panel when active</i>
+</p>
+
+<p align="center">
+<img src="https://imgur.com/f96wGo4.png" width="660"><br/>
+<i>solid panel when inactive</i>
+</p>
+
+# How To Use
+
+Unlock your widgets and add transparency button in a plasma panel. Activate it and your plasma panel will become completely transparent without altering your plasma theme files. Lock your widgets in the end in order to hide the transparency button completely.
+
+# Suggested
+- Plasma >= 5.17.3
+
+# Minimum
 
 - Plasma >= 5.16
 
