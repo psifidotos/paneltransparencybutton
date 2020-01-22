@@ -21,14 +21,13 @@ Plasma 5 applet that enables/disables transparency for plasma panels. Plasma 5.1
 
 1. Unlock your widgets and add transparency button in a plasma panel
 2. Activate it and your plasma panel will become completely transparent without altering your plasma theme files.
-2. Lock your widgets in the end in order to hide the transparency button completely.
+3. Based on Plasma Desktop version
+- For Plasma >= 5.18, exit Configure Layout desktop mode in order to hide the transparency button completely
+- For Plasma <  5.18, lock your widgets in the end in order to hide the transparency button completely.
 
-# Suggested
-- Plasma >= 5.17.3
-
-# Minimum
-
-- Plasma >= 5.16
+# Requirements
+- v0.2.x [Plasma >= 5.18]
+- v0.1.x [Plasma < 5.18]
 
 # Install
 
