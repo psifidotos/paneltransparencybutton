@@ -34,7 +34,10 @@ Item {
 
     readonly property bool vertical: plasmoid.location === PlasmaCore.Types.Vertical
     readonly property bool hidden: plasmoid.location !== PlasmaCore.Types.Planar
-                                   && (!containmentInterface || (containmentInterface && containmentInterface.immutability === PlasmaCore.Types.UserImmutable))
+                                   && (!containmentInterface
+                                       || (containmentInterface && containmentInterface.hasOwnProperty("editMode") && !containmentInterface.editMode)) /*Plasma>=5.18*/
+                                       //! deprecated code for historical reference, Plasma <= 5.17
+                                       //!/|| (containmentInterface && containmentInterface.immutability === PlasmaCore.Types.UserImmutable))
 
     readonly property int minimumLength: {
         if (hidden) {
